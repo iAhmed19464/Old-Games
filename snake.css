@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+html {
+    background-image: url(https://wallpapercave.com/wp/wp2409719.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    margin: 10em;
+}
+#restart{
+    display:block;
+     margin:0 auto;
+     margin-top:10px;
+     background-color: grey ;
+     border:2px solid transparent;
+     box-sizing: border-box;
+     cursor:pointer;
+     font-size: 1rem;
+     font-weight: 700;
+     line-height: 1;
+     padding:15px 25px ;
+     text-align: center;
+    }

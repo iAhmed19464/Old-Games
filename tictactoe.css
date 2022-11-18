@@ -1,0 +1,68 @@
+
+body{background-image:url("https://img.freepik.com/premium-photo/endless-flight-futuristic-dark-corridor-with-neon-lighting-bright-neon-circle-front_250994-2747.jpg?w=900");
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    }
+    
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body h1 {
+    color: white;
+}
+
+hr {
+    width: 500px;
+    height: 3px;
+    background-color: black;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.tile {
+    width: 147px;
+    height: 147px;
+    
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    border-bottom: 3px solid black;
+}
+
+.vertical-line {
+    border-right: 3px solid black;
+}
+
+.winner {
+    background-color: lightgray;
+    color: red;
+}
+#restart{
+    display:block;
+     margin:0 auto;
+     margin-top:10px;
+     background-color: grey ;
+     border:2px solid transparent;
+     box-sizing: border-box;
+     cursor:pointer;
+     font-size: 1rem;
+     font-weight: 700;
+     line-height: 1;
+     padding:15px 25px ;
+     text-align: center;
+    }
